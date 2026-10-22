@@ -1,0 +1,44 @@
+./build/determinant --threads 12 src/examples/matrix-13.txt
+Determinant: 7736
+Threads: 12
+Time: 41.237441684 s
+
+./build/determinant --threads 8 src/examples/matrix-13.txt
+Determinant: 7736
+Threads: 8
+Time: 45.312672544 s
+
+./build/determinant --threads 7 src/examples/matrix-13.txt
+Determinant: 7736
+Threads: 7
+Time: 53.069405205 s
+
+./build/determinant --threads 6 src/examples/matrix-13.txt
+Determinant: 7736
+Threads: 6
+Time: 43.158549481 s
+
+./build/determinant --threads 5 src/examples/matrix-13.txt
+Determinant: 7736
+Threads: 5
+Time: 52.815789465 s
+
+./build/determinant --threads 4 src/examples/matrix-13.txt
+Determinant: 7736
+Threads: 4
+Time: 62.173046865 s
+
+./build/determinant --threads 3 src/examples/matrix-13.txt
+Determinant: 7736
+Threads: 3
+Time: 85.636897709 s
+
+./build/determinant --threads 2 src/examples/matrix-13.txt
+Determinant: 7736
+Threads: 2
+Time: 123.723745589 s
+
+./build/determinant --threads 1 src/examples/matrix-13.txt
+Determinant: 7736
+Threads: 1
+Time: 244.303998558 s

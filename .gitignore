@@ -1,0 +1,15 @@
+/build*/
+cmake-build-*/
+compile_commands.json
+/results/
+/report/*.aux
+/report/*.log
+/report/*.out
+/report/*.lol
+/report/*.toc
+/report/*.fls
+/report/*.fdb_latexmk
+/report/*.synctex.gz
+__pycache__/
+.vscode/
+.idea/

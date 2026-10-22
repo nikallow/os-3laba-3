@@ -1,0 +1,76 @@
+508983 execve("./build/determinant", ["./build/determinant", "--threads", "3", "src/examples/matrix.txt"], 0x7ffc73ff9b48 /* 88 vars */) = 0
+508983 brk(NULL)                        = 0x1e789000
+508983 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+508983 openat(AT_FDCWD</home/nikallow/Code/1-mai/3-os/laba3>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+508983 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=85363, ...}) = 0
+508983 mmap(NULL, 85363, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fd4cba7c000
+508983 close(3</etc/ld.so.cache>)       = 0
+508983 openat(AT_FDCWD</home/nikallow/Code/1-mai/3-os/laba3>, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib64/libc.so.6>
+508983 read(3</usr/lib64/libc.so.6>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2408\0\0\0\0\0\0@\0\0\0\0\0\0\0\260\316%\0\0\0\0\0\0\0\0\0@\08\0\16\0@\0D\0C\0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\3\0\0\0\0\0\0\20\3\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`\360\33\0\0\0\0\0`\360\33\0\0\0\0\0`\360\33\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0-\36\27\0\0\0\0\0-\36\27\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\4\0\0\0\0 \27\0\0\0\0\0\0 \27\0\0\0\0\0"..., 832) = 832
+508983 pread64(3</usr/lib64/libc.so.6>, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\3\0\0\0\0\0\0\20\3\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`\360\33\0\0\0\0\0`\360\33\0\0\0\0\0`\360\33\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0-\36\27\0\0\0\0\0-\36\27\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\4\0\0\0\0 \27\0\0\0\0\0\0 \27\0\0\0\0\0\0 \27\0\0\0\0\0P\216\7\0\0\0\0\0P\216\7\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0x\273\36\0\0\0\0\0x\273\36\0\0\0\0\0x\273\36\0\0\0\0\0"..., 784, 64) = 784
+508983 fstat(3</usr/lib64/libc.so.6>, {st_mode=S_IFREG|0755, st_size=2482096, ...}) = 0
+508983 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd4cba7a000
+508983 pread64(3</usr/lib64/libc.so.6>, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\3\0\0\0\0\0\0\20\3\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`\360\33\0\0\0\0\0`\360\33\0\0\0\0\0`\360\33\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0-\36\27\0\0\0\0\0-\36\27\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\4\0\0\0\0 \27\0\0\0\0\0\0 \27\0\0\0\0\0\0 \27\0\0\0\0\0P\216\7\0\0\0\0\0P\216\7\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0x\273\36\0\0\0\0\0x\273\36\0\0\0\0\0x\273\36\0\0\0\0\0"..., 784, 64) = 784
+508983 mmap(NULL, 2067312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib64/libc.so.6>, 0) = 0x7fd4cb881000
+508983 mmap(0x7fd4cb9f3000, 495616, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib64/libc.so.6>, 0x172000) = 0x7fd4cb9f3000
+508983 mmap(0x7fd4cba6c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib64/libc.so.6>, 0x1eb000) = 0x7fd4cba6c000
+508983 mmap(0x7fd4cba72000, 31600, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd4cba72000
+508983 close(3</usr/lib64/libc.so.6>)   = 0
+508983 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd4cb87e000
+508983 arch_prctl(ARCH_SET_FS, 0x7fd4cb87e740) = 0
+508983 set_tid_address(0x7fd4cb87ed68)  = 508983
+508983 set_robust_list(0x7fd4cb87ea20, 24) = 0
+508983 rseq({cpu_id_start=0, cpu_id=RSEQ_CPU_ID_UNINITIALIZED, rseq_cs=NULL, flags=0, node_id=0, mm_cid=0, slice_ctrl={request=0, granted=0, __reserved=0}, __reserved=0}, 33, 0, 0x53053053) = 0
+508983 mprotect(0x7fd4cba6c000, 16384, PROT_READ) = 0
+508983 mprotect(0x403000, 4096, PROT_READ) = 0
+508983 mprotect(0x7fd4cbad0000, 8192, PROT_READ) = 0
+508983 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+508983 getrandom("\x7e\xef\x45\xe5\x8f\x22\x4c\xbe", 8, GRND_NONBLOCK) = 8
+508983 munmap(0x7fd4cba7c000, 85363)    = 0
+508983 brk(NULL)                        = 0x1e789000
+508983 brk(0x1e7aa000)                  = 0x1e7aa000
+508983 openat(AT_FDCWD</home/nikallow/Code/1-mai/3-os/laba3>, "src/examples/matrix.txt", O_RDONLY) = 3</home/nikallow/Code/1-mai/3-os/laba3/src/examples/matrix.txt>
+508983 fstat(3</home/nikallow/Code/1-mai/3-os/laba3/src/examples/matrix.txt>, {st_mode=S_IFREG|0644, st_size=21, ...}) = 0
+508983 read(3</home/nikallow/Code/1-mai/3-os/laba3/src/examples/matrix.txt>, "3\n1 2 3\n4 5 6\n7 8 10\n", 4096) = 21
+508983 read(3</home/nikallow/Code/1-mai/3-os/laba3/src/examples/matrix.txt>, "", 4096) = 0
+508983 close(3</home/nikallow/Code/1-mai/3-os/laba3/src/examples/matrix.txt>) = 0
+508983 rt_sigaction(SIGRT_1, {sa_handler=0x7fd4cb8f1240, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fd4cb89afb0}, NULL, 8) = 0
+508983 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+508983 mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fd4cb07d000
+508983 madvise(0x7fd4cb07d000, 4096, MADV_GUARD_INSTALL) = 0
+508983 rt_sigprocmask(SIG_BLOCK, ~[], [], 8) = 0
+508983 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7fd4cb87dce8, parent_tid=0x7fd4cb87d990, exit_signal=0, stack=0x7fd4cb07d000, stack_size=0x7fff80, tls=0x7fd4cb87d6c0} => {parent_tid=[508984]}, 88) = 508984
+508983 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+508983 mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fd4ca87c000
+508983 madvise(0x7fd4ca87c000, 4096, MADV_GUARD_INSTALL) = 0
+508983 rt_sigprocmask(SIG_BLOCK, ~[], [], 8) = 0
+508983 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7fd4cb07cce8, parent_tid=0x7fd4cb07c990, exit_signal=0, stack=0x7fd4ca87c000, stack_size=0x7fff80, tls=0x7fd4cb07c6c0} => {parent_tid=[508985]}, 88) = 508985
+508983 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+508983 futex(0x7fd4cb87dce8, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 2, NULL, FUTEX_BITSET_MATCH_ANY <unfinished ...>
+508985 rseq({cpu_id_start=0, cpu_id=RSEQ_CPU_ID_UNINITIALIZED, rseq_cs=NULL, flags=0, node_id=0, mm_cid=0, slice_ctrl={request=0, granted=0, __reserved=0}, __reserved=0}, 33, 0, 0x53053053) = 0
+508985 set_robust_list(0x7fd4cb07c9a0, 24) = 0
+508985 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+508985 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd4c2800000
+508985 munmap(0x7fd4c2800000, 25165824) = 0
+508985 munmap(0x7fd4c8000000, 41943040) = 0
+508985 mprotect(0x7fd4c4000000, 135168, PROT_READ|PROT_WRITE <unfinished ...>
+508984 rseq({cpu_id_start=0, cpu_id=RSEQ_CPU_ID_UNINITIALIZED, rseq_cs=NULL, flags=0, node_id=0, mm_cid=0, slice_ctrl={request=0, granted=0, __reserved=0}, __reserved=0}, 33, 0, 0x53053053 <unfinished ...>
+508985 <... mprotect resumed>)          = 0
+508985 rt_sigprocmask(SIG_BLOCK, ~[RT_1], NULL, 8) = 0
+508985 madvise(0x7fd4ca87c000, 8368128, MADV_DONTNEED) = 0
+508985 exit(0)                          = ?
+508984 <... rseq resumed>)              = 0
+508984 set_robust_list(0x7fd4cb87d9a0, 24) = 0
+508984 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+508984 rt_sigprocmask(SIG_BLOCK, ~[RT_1], NULL, 8) = 0
+508984 madvise(0x7fd4cb07d000, 8368128, MADV_DONTNEED) = 0
+508984 exit(0)                          = ?
+508983 <... futex resumed>)             = 0
+508984 +++ exited with 0 +++
+508985 +++ exited with 0 +++
+508983 fstat(1</dev/pts/2<char 136:2>>, {st_mode=S_IFCHR|0600, st_rdev=makedev(0x88, 0x2), ...}) = 0
+508983 write(1</dev/pts/2<char 136:2>>, "Determinant: -3\n", 16) = 16
+508983 write(1</dev/pts/2<char 136:2>>, "Threads: 3\n", 11) = 11
+508983 write(1</dev/pts/2<char 136:2>>, "Time: 0.003735860 s\n", 20) = 20
+508983 exit_group(0)                    = ?
+508983 +++ exited with 0 +++
